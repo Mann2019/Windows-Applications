@@ -38,10 +38,12 @@
         'Dim addNums As AddNumbers = New AddNumbers()
         'addNums.Add()
         'Console.WriteLine()
-        Console.WriteLine("Add the digits of a number - ")
-        Dim addDigs As AddDigits = New AddDigits()
-        addDigs.Input()
-        addDigs.Digits()
+        'Console.WriteLine("Add the digits of a number - ")
+        'Dim addDigs As AddDigits = New AddDigits()
+        'addDigs.Input()
+        'addDigs.Digits()
+        Dim reverse As ReverseDigits = New ReverseDigits()
+        reverse.Input()
         Console.ReadLine()
     End Sub
 
