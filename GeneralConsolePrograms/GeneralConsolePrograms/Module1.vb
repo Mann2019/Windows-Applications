@@ -44,6 +44,7 @@
         'addDigs.Digits()
         Dim reverse As ReverseDigits = New ReverseDigits()
         reverse.Input()
+        reverse.Reverse()
         Console.ReadLine()
     End Sub
 
