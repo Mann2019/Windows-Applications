@@ -34,17 +34,10 @@
         End Sub
     End Class
     Sub Main()
-        'Console.WriteLine("Add 3 numbers - ")
-        'Dim addNums As AddNumbers = New AddNumbers()
-        'addNums.Add()
-        'Console.WriteLine()
-        'Console.WriteLine("Add the digits of a number - ")
-        'Dim addDigs As AddDigits = New AddDigits()
-        'addDigs.Input()
-        'addDigs.Digits()
-        Dim reverse As ReverseDigits = New ReverseDigits()
-        reverse.Input()
-        reverse.Reverse()
+        Dim strOps As StringOperations = New StringOperations()
+        strOps.Input()
+        strOps.ReverseChars()
+        strOps.Output()
         Console.ReadLine()
     End Sub
 
